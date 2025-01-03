@@ -13,7 +13,7 @@ except ModuleNotFoundError:
     from vosk import Model, KaldiRecognizer
     
 
-model_path = "models/vosk-model-small-en-in-0.4"
+model_path = "models/vosk-model-small-en-in-0.4/vosk-model-small-en-in-0.4"
 
 if not os.path.exists(model_path):
     print("Please download the model from https://alphacephei.com/vosk/models and unpack as 'model' in the current folder.")
